@@ -1,0 +1,55 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "proxy": "http://localhost:5000",
+  "private": true,
+  "dependencies": {
+    "@api.stream/studio-kit": "https://github.com/d3r3j3/api.stream-studio-kit.git",
+    "@googlemaps/js-api-loader": "^1.14.3",
+    "axios": "^0.27.2",
+    "nanoid": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "author": "",
+  "license": "ISC"
+}
